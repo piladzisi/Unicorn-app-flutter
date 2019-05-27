@@ -5,7 +5,7 @@ void main() => runApp(
         home: Scaffold(
           backgroundColor: Colors.lightBlueAccent[100],
           appBar: AppBar(
-            title: Text('Be a Unicorn'),
+            title: Center(child: Text('Be a Unicorn')),
             backgroundColor: Colors.lightBlueAccent[700],
           ),
           body: Center(
